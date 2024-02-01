@@ -33,6 +33,7 @@
         .caption {
             text-align: center;
             color: $white;
+            min-width: 70%;
             @include absoluteCenter;
         }
 
@@ -54,4 +55,8 @@
             @include transitionProperty;
         }
     }
+}
+
+.no-show {
+    display: none;
 }

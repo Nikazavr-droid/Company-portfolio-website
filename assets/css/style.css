@@ -12188,6 +12188,7 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption {
   text-align: center;
   color: #fff;
+  min-width: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12207,6 +12208,10 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 1000ms;
   transition-property: all;
+}
+
+.no-show {
+  display: none;
 }
 
 .get-started {
@@ -12311,12 +12316,6 @@ textarea.form-control-lg {
 }
 .footer-social a:hover {
   color: #9926f0;
-}
-
-@media (max-width: 575.98px) {
-  .footer-company {
-    margin-left: 2rem;
-  }
 }
 
 .company-list {

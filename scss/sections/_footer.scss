@@ -70,12 +70,6 @@
 }
 
 // COMPANY INFO
-.footer-company {
-    @include media-breakpoint-down(sm) {
-        margin-left: 2rem;
-    }
-}
-
 .company-list {
     display: block;
     list-style-type: none;
